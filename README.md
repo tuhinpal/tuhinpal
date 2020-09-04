@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://tu.hin.life"><img src="https://firebasestorage.googleapis.com/v0/b/webtuhin.appspot.com/o/githubstatic%2Ftreadme.png?alt=media&token=fc8fbf07-4401-4dd9-a69f-4dfe473bf6af" alt="Tuhin" width="300"></a>
+  <a href="https://tu.hin.life"><img src="https://firebasestorage.googleapis.com/v0/b/webtuhin.appspot.com/o/githubstatic%2Freadme.png?alt=media&token=2e73c66d-d7e6-4489-b9cb-95b752d15229" alt="Tuhin" width="300"></a>
   <br>
 Tuhin Kanti Pal<br>
 </h1>
