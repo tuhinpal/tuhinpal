@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth.uid === 'paste_the_uid'",
+    ".write": "auth.uid === 'paste_the_uid'"
+  }
+}
