@@ -1,3 +1,3 @@
 <a href="https://tu.hin.life"><img src="https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet" alt="Tuhin"></a>
 <br>
-<a href="https://tu.hin.life"><img src="https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=000&tc=fff&sc=fff&ic=fff" alt="Tuhin"></a>
+<a href="https://tu.hin.life"><img src="https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=000&tc=fff&ic=fff" alt="Tuhin"></a>
