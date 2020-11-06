@@ -1,0 +1,12 @@
+{
+    "name": "cachecleanerjeet",
+    "version": "2.0.0",
+    "description": "My Website",
+    "dependencies": {
+        "axios": "^0.21.0",
+        "node-base64-image": "^2.0.1"
+    },
+    "main": "api/index.js",
+    "author": "Tuhin Kanti Pal",
+    "license": "Apache-2.0"
+}
