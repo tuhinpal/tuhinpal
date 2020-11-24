@@ -41,7 +41,7 @@ body {
 .merapyaarikatha {
     color: #1C1C1C;
     font-family: Krona One;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     padding-top: 10px;
@@ -75,6 +75,21 @@ body {
     font-weight: bold;
     text-align: center;
     padding: 10px 20px 30px 20px;
+}
+
+.socialbtn:hover {
+    transform: translate(0px, -3px);
+    animation-name: headsup;
+    animation-duration: 0.3s;
+}
+
+@keyframes headsup {
+    from {
+        transform: translate(0px, 0px);
+    }
+    to {
+        transform: translate(0px, -3px);
+    }
 }
 
 
