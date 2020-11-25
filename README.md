@@ -14,7 +14,7 @@
 - Firebase
 - Docker
 - Linux
-- Rest<br>
+- REST<br>
 
 ### ⚡ Project Stack
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
