@@ -11,7 +11,9 @@
 - Git
 - AWS | GCP
 - Kubernetes
-- Firebase<br><br>
+- Firebase
+- Docker
+- Linux<br>
 
 ### ⚡ Project Stack
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
@@ -24,7 +26,19 @@
 - [Jiosaavn API](https://github.com/cachecleanerjeet/JiosaavnAPI "Jiosaavn API")
 - [Ekart API](https://github.com/cachecleanerjeet/Ekart-API "Ekart API")
 
-[&& More](https://github.com/cachecleanerjeet "&& More")<br><br>
+[&& More](https://github.com/cachecleanerjeet "&& More")<br>
 
 ### ⚡ Github Stats
-[![Stats](https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/cachecleanerjeet "Stats")<br><br>
+[![Stats](https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/cachecleanerjeet "Stats")<br>
+
+### ⚡ Connect
+- [Instagram](https://www.instagram.com/jeeetpaul "Instagram")
+- [Telegram](https://telegram.dog/tprojects "Telegram")
+- [Github](https://github.com/cachecleanerjeet "Github")
+- [Youtube](https://www.youtube.com/channel/UCa4FMtLpYcOBtjKOZgzTFNA "Youtube")
+- [Twitter](https://twitter.com/jeeetpaul "Twitter")
+
+### ⚡ Contact
+- [Mail](mailto:me@thetuhin.com "Mail")
+- [Telegram](https://telegram.dog/cachecleanerjeet "Telegram")
+[![Footer](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/footer.png "Footer")](http://thetuhin.com "Footer")
