@@ -1,4 +1,4 @@
-[![hola](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/hola2.png "hola")](http://thetuhin.com "hola")
+[![hola](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/header.jpg "hola")](http://thetuhin.com "hola")
 
 ### ⚡ Tech Stack
 - Javascript
@@ -41,4 +41,4 @@
 ### ⚡ Contact
 - [Mail](mailto:me@thetuhin.com "Mail")
 - [Telegram](https://telegram.dog/cachecleanerjeet "Telegram")
-[![Footer](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/footer.png "Footer")](http://thetuhin.com "Footer")
+[![Footer](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/footer.jpg "Footer")](http://thetuhin.com "Footer")
