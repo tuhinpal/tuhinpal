@@ -13,7 +13,8 @@
 - Kubernetes
 - Firebase
 - Docker
-- Linux<br>
+- Linux
+- Rest<br>
 
 ### ⚡ Project Stack
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
