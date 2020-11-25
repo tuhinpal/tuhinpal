@@ -1,1 +1,30 @@
-<a href="https://tu.hin.life"><img src="https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=1a1a1c&tc=df6d74&ic=df6d74" alt="Tuhin"></a>
+[![hola](https://raw.githubusercontent.com/cachecleanerjeet/cachecleanerjeet/master/markdown/hola2.png "hola")](http://thetuhin.com "hola")
+
+### ⚡ Tech Stack
+- Javascript
+- NodeJS
+- MongoDB | Cloud Firestore
+- React
+- Next
+- Telegraf
+- Lambda Functions
+- Git
+- AWS | GCP
+- Kubernetes
+- Firebase<br><br>
+
+### ⚡ Project Stack
+- [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
+- [Musicder](https://github.com/cachecleanerjeet/Musicder "Musicder")
+- [Zee5 Bot](https://telegram.dog/zee5streamer_bot "Zee5 Bot")
+- [Hoichoi API](https://github.com/cachecleanerjeet/hoichoi-api "Hoichoi API")
+- [Upier](https://github.com/cachecleanerjeet/Upier "Upier")
+- [aha Bot](https://telegram.dog/ahadownloader_bot "aha Bot")
+- [Mx Player Bot](https://telegram.dog/mxstreamer_bot "Mx Player Bot")
+- [Jiosaavn API](https://github.com/cachecleanerjeet/JiosaavnAPI "Jiosaavn API")
+- [Ekart API](https://github.com/cachecleanerjeet/Ekart-API "Ekart API")
+
+[&& More](https://github.com/cachecleanerjeet "&& More")<br><br>
+
+### ⚡ Github Stats
+[![Stats](https://github-stats-alpha.vercel.app/api/?username=cachecleanerjeet&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/cachecleanerjeet "Stats")<br><br>
