@@ -22,6 +22,7 @@
 - [Musicder](https://github.com/cachecleanerjeet/Musicder "Musicder")
 - [Zee5 Bot](https://telegram.dog/zee5streamer_bot "Zee5 Bot")
 - [Voot Bot](https://telegram.dog/vootstreamer_bot "Voot Bot")
+- [Sunnxt Bot](https://telegram.dog/sunnxtstreamer_bot "Sunnxt Bot")
 - [Hoichoi API](https://github.com/cachecleanerjeet/hoichoi-api "Hoichoi API")
 - [Upier](https://github.com/cachecleanerjeet/Upier "Upier")
 - [aha Bot](https://telegram.dog/ahadownloader_bot "aha Bot")
