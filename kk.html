@@ -1,0 +1,189 @@
+<html>
+
+<head>
+    <title>Petta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel='stylesheet' href='https://cdn.plyr.io/3.6.2/plyr.css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dashjs/3.1.3/dash.all.min.js"></script>
+</head>
+<style>
+    html {
+        font-family: Poppins;
+        background: #000;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 9999;
+    }
+    
+    .loading-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        line-height: 100px;
+    }
+    
+    .loading-text span {
+        display: inline-block;
+        margin: 0 5px;
+        color: #00b3ff;
+        font-family: 'Quattrocento Sans', sans-serif;
+    }
+    
+    .loading-text span:nth-child(1) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(2) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.2s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(3) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.4s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(4) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.6s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(5) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 0.8s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(6) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1s infinite linear alternate;
+    }
+    
+    .loading-text span:nth-child(7) {
+        filter: blur(0px);
+        animation: blur-text 1.5s 1.2s infinite linear alternate;
+    }
+    
+    @keyframes blur-text {
+        0% {
+            filter: blur(0px);
+        }
+        100% {
+            filter: blur(4px);
+        }
+    }
+    
+    .plyr__video-wrapper::before {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 10;
+        content: '';
+        height: 35px;
+        width: 35px;
+        background: url('https://telegra.ph/file/1b3e54242a789deb635f1.png') no-repeat;
+        background-size: 35px auto, auto;
+    }
+</style>
+
+<body>
+    <div id="loading" class="loading">
+        <div class="loading-text">
+            <span class="loading-text-words">L</span>
+            <span class="loading-text-words">O</span>
+            <span class="loading-text-words">A</span>
+            <span class="loading-text-words">D</span>
+            <span class="loading-text-words">I</span>
+            <span class="loading-text-words">N</span>
+            <span class="loading-text-words">G</span>
+        </div>
+    </div>
+    <div>
+        <video poster="https://kimg.voot.com/kimg/95ae5262e00944a8a1ef614acba0418e_1280X720.jpg" id="videoContainer"></video>
+    </div>
+</body>
+<script>
+    setTimeout(videovisible, 5000)
+
+    function videovisible() {
+        document.getElementById('loading').style.display = 'none'
+    }
+
+    const video = document.getElementById("videoContainer");
+    document.addEventListener("DOMContentLoaded", function() {
+        const source = "https://serverlet.iminix.ml/rest-as.ott.kaltura.com/api_v3/service/assetFile/action/playManifest/partnerId/225/assetId/962823/assetType/media/assetFileId/11457431/contextType/PLAYBACK/ks/djJ8MjI1fOX8o7ap6W2pVRzq605cAg0PIMfqH5g9r4LrLzuGQk6gRJxWHY_Bm-Ls6oAqHZz3-q0mY66aju2l6vBGXgm5fL13sYMX8Cf7aiX48HFL2mZtELuu8Ims57G25A0uJhV3fz_fRyr-wThFvT4rlD5Sp7DhbKFG4pQsRuJPD43QTRzhWanaPqhshXQgo1POUxNkA5olICog_dJXP1zQ3O80DdXBvmfUK0QRkheonpjPkD8lH3x7WYrSNkppYjRzkl1kjCaaYcOYfrvg8A3c1E649RZ70pf8ZXQ9efBbGJCHIzLp8_il2UaiAlA9eIFJSknzhjbtKgFqrWRDb7tbU93hN4L7iN3S_FGyiv4b_s35RtyTI64B3-ivEh4AC0eMXLejfkgujT94VNGWXDiO-FLIXyU1xxFPKxmHxhr8Fyb5tNEAoLgjugNYOWjqBlotp8IHfnl66TsSVsXPtdqFl87j7zJNsZ-VxQRj-xOheVL_QrUO/a.mpd";
+        const dash = dashjs.MediaPlayer().create();
+        var defaultOptions = {
+            "autoplay": false,
+            "muted": false,
+            "loop": {
+                "active": false
+            },
+            "captions": {
+                "active": true,
+                "update": true
+            }
+        };
+        dash.initialize(video, source, false);
+        dash.updateSettings({
+            streaming: {
+                abr: {
+                    autoSwitchBitrate: {
+                        audio: false,
+                        video: false
+                    }
+                },
+                fastSwitchEnabled: true,
+                lowLatencyEnabled: true
+            }
+        });
+        dash.setProtectionData({
+            "com.widevine.alpha": {
+                "serverURL": "https://udrmv3.kaltura.com/cenc/widevine/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TWpJMWZPWDhvN2FwNlcycFZSenE2MDVjQWcwUElNZnFINWc5cjRMckx6dUdRazZnUkp4V0hZX0JtLUxzNm9BcUhaejMtcTBtWTY2YWp1Mmw2dkJHWGdtNWZMMTNzWU1YOENmN2FpWDQ4SEZMMm1adEVMdXU4SW1zNTdHMjVBMHVKaFYzZnpfZlJ5ci13VGhGdlQ0cmxENVNwN0RoYktGRzRwUXNSdUpQRDQzUVRSemhXYW5hUHFoc2hYUWdvMVBPVXhOa0E1b2xJQ29nX2RKWFAxelEzTzgwRGRYQnZtZlVLMFFSa2hlb25walBrRDhsSDN4N1dZclNOa3BwWWpSemtsMWtqQ2FhWWNPWWZydmc4QTNjMUU2NDlSWjcwcGY4WlhROWVmQmJHSkNISXpMcDhfaWwyVWFpQWxBOWVJRkpTa256aGpidEtnRnFyV1JEYjd0YlU5M2hONEw3aU4zU19GR3lpdjRiX3MzNVJ0eVRJNjRCMy1pdkVoNEFDMGVNWExlamZrZ3VqVDk0Vk5HV1hEaU8tRkxJWHlVMXh4RlBLeG1IeGhyOEZ5YjV0TkVBb0xnanVnTllPV2pxQmxvdHA4SUhmbmw2NlRzU1ZzWFB0ZHFGbDg3ajd6Sk5zWi1WeFFSai14T2hlVkxfUXJVTyZjb250ZXh0VHlwZT1ub25lJmlkPTExNDU3NDMxIiwiYWNjb3VudF9pZCI6MTk4MjU1MSwiY29udGVudF9pZCI6IjBfdWVsNmd5ZGlfMF85ejJxOXZ5ZiwwX3VlbDZneWRpXzBfNDBodnk2ZGIsMF91ZWw2Z3lkaV8wX2R1M2QwMWM5LDBfdWVsNmd5ZGlfMF9mcXJtcDI2dywwX3VlbDZneWRpXzBfNGo5d25lc2wiLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TWpJMWZPWDhvN2FwNlcycFZSenE2MDVjQWcwUElNZnFINWc5cjRMckx6dUdRazZnUkp4V0hZX0JtLUxzNm9BcUhaejMtcTBtWTY2YWp1Mmw2dkJHWGdtNWZMMTNzWU1YOENmN2FpWDQ4SEZMMm1adEVMdXU4SW1zNTdHMjVBMHVKaFYzZnpfZlJ5ci13VGhGdlQ0cmxENVNwN0RoYktGRzRwUXNSdUpQRDQzUVRSemhXYW5hUHFoc2hYUWdvMVBPVXhOa0E1b2xJQ29nX2RKWFAxelEzTzgwRGRYQnZtZlVLMFFSa2hlb25walBrRDhsSDN4N1dZclNOa3BwWWpSemtsMWtqQ2FhWWNPWWZydmc4QTNjMUU2NDlSWjcwcGY4WlhROWVmQmJHSkNISXpMcDhfaWwyVWFpQWxBOWVJRkpTa256aGpidEtnRnFyV1JEYjd0YlU5M2hONEw3aU4zU19GR3lpdjRiX3MzNVJ0eVRJNjRCMy1pdkVoNEFDMGVNWExlamZrZ3VqVDk0Vk5HV1hEaU8tRkxJWHlVMXh4RlBLeG1IeGhyOEZ5YjV0TkVBb0xnanVnTllPV2pxQmxvdHA4SUhmbmw2NlRzU1ZzWFB0ZHFGbDg3ajd6Sk5zWi1WeFFSai14T2hlVkxfUXJVTyIsInVkaWQiOiJiNTJjYmE2ZTkwMDU0YzBiOGIyMTk0YzAzOWYxNDBiZCIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MjI1fQ%3d%3d&signature=KKUEgPcCDX1CheDwxJQTriMSoIM%3d"
+            },
+            "com.microsoft.playready": {
+                "serverURL": "https://udrmv3.kaltura.com/cenc/playready/license?custom_data=eyJjYV9zeXN0ZW0iOiJodHRwczovL3Jlc3QtYXMub3R0LmthbHR1cmEuY29tL2FwaV92My9zZXJ2aWNlL2Fzc2V0RmlsZS9hY3Rpb24vZ2V0Q29udGV4dD9rcz1kako4TWpJMWZPWDhvN2FwNlcycFZSenE2MDVjQWcwUElNZnFINWc5cjRMckx6dUdRazZnUkp4V0hZX0JtLUxzNm9BcUhaejMtcTBtWTY2YWp1Mmw2dkJHWGdtNWZMMTNzWU1YOENmN2FpWDQ4SEZMMm1adEVMdXU4SW1zNTdHMjVBMHVKaFYzZnpfZlJ5ci13VGhGdlQ0cmxENVNwN0RoYktGRzRwUXNSdUpQRDQzUVRSemhXYW5hUHFoc2hYUWdvMVBPVXhOa0E1b2xJQ29nX2RKWFAxelEzTzgwRGRYQnZtZlVLMFFSa2hlb25walBrRDhsSDN4N1dZclNOa3BwWWpSemtsMWtqQ2FhWWNPWWZydmc4QTNjMUU2NDlSWjcwcGY4WlhROWVmQmJHSkNISXpMcDhfaWwyVWFpQWxBOWVJRkpTa256aGpidEtnRnFyV1JEYjd0YlU5M2hONEw3aU4zU19GR3lpdjRiX3MzNVJ0eVRJNjRCMy1pdkVoNEFDMGVNWExlamZrZ3VqVDk0Vk5HV1hEaU8tRkxJWHlVMXh4RlBLeG1IeGhyOEZ5YjV0TkVBb0xnanVnTllPV2pxQmxvdHA4SUhmbmw2NlRzU1ZzWFB0ZHFGbDg3ajd6Sk5zWi1WeFFSai14T2hlVkxfUXJVTyZjb250ZXh0VHlwZT1ub25lJmlkPTExNDU3NDMxIiwiYWNjb3VudF9pZCI6MTk4MjU1MSwiY29udGVudF9pZCI6IjBfdWVsNmd5ZGlfMF85ejJxOXZ5ZiwwX3VlbDZneWRpXzBfNDBodnk2ZGIsMF91ZWw2Z3lkaV8wX2R1M2QwMWM5LDBfdWVsNmd5ZGlfMF9mcXJtcDI2dywwX3VlbDZneWRpXzBfNGo5d25lc2wiLCJmaWxlcyI6IiIsInVzZXJfdG9rZW4iOiJkako4TWpJMWZPWDhvN2FwNlcycFZSenE2MDVjQWcwUElNZnFINWc5cjRMckx6dUdRazZnUkp4V0hZX0JtLUxzNm9BcUhaejMtcTBtWTY2YWp1Mmw2dkJHWGdtNWZMMTNzWU1YOENmN2FpWDQ4SEZMMm1adEVMdXU4SW1zNTdHMjVBMHVKaFYzZnpfZlJ5ci13VGhGdlQ0cmxENVNwN0RoYktGRzRwUXNSdUpQRDQzUVRSemhXYW5hUHFoc2hYUWdvMVBPVXhOa0E1b2xJQ29nX2RKWFAxelEzTzgwRGRYQnZtZlVLMFFSa2hlb25walBrRDhsSDN4N1dZclNOa3BwWWpSemtsMWtqQ2FhWWNPWWZydmc4QTNjMUU2NDlSWjcwcGY4WlhROWVmQmJHSkNISXpMcDhfaWwyVWFpQWxBOWVJRkpTa256aGpidEtnRnFyV1JEYjd0YlU5M2hONEw3aU4zU19GR3lpdjRiX3MzNVJ0eVRJNjRCMy1pdkVoNEFDMGVNWExlamZrZ3VqVDk0Vk5HV1hEaU8tRkxJWHlVMXh4RlBLeG1IeGhyOEZ5YjV0TkVBb0xnanVnTllPV2pxQmxvdHA4SUhmbmw2NlRzU1ZzWFB0ZHFGbDg3ajd6Sk5zWi1WeFFSai14T2hlVkxfUXJVTyIsInVkaWQiOiJiNTJjYmE2ZTkwMDU0YzBiOGIyMTk0YzAzOWYxNDBiZCIsImFkZGl0aW9uYWxfY2FzX3N5c3RlbSI6MjI1fQ%3d%3d&signature=KKUEgPcCDX1CheDwxJQTriMSoIM%3d"
+            }
+        });
+        dash.on("streamInitialized", function() {
+            const availableQualities = dash.getBitrateInfoListFor("video").map((l) => l.height);
+            defaultOptions.quality = {
+                default: availableQualities[0].height,
+                options: availableQualities,
+                forced: true,
+                onChange: function(newQuality) {
+                    dash.getBitrateInfoListFor("video").forEach((level, levelIndex) => {
+                        if (level.height === newQuality) {
+                            dash.setQualityFor("video", level.qualityIndex);
+                        }
+                    });
+                },
+            };
+            const player = new Plyr(video, defaultOptions);
+            window.player = player;
+            window.dash = dash;
+        });
+        dash.attachView(video);
+    });
+</script>
+
+</html>
