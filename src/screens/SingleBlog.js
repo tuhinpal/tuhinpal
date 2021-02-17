@@ -8,7 +8,7 @@ import gfm from 'remark-gfm';
 export default class SingleBlog extends React.Component {
     state = {
         blog: <div className="projects_loading">
-            <br/><br/><br/><br/>
+            <br /><br /><br /><br />
             <div className="loader_container">
                 <div className="big_bar">
                 </div>
@@ -22,11 +22,18 @@ export default class SingleBlog extends React.Component {
         document.title = `Blog | Tuhin`;
         axios.get(`../../blog/${this.props.match.params.name}.md`)
             .then(response => {
-                var pagename = this.props.match.params.name.replace(/-/gi,' ')
-                document.title = `${pagename.charAt(0).toUpperCase()}${pagename.slice(1)} | Tuhin`;
-                this.setState({
-                    blog: <div className="blog_single"><ReactMarkdown plugins={[gfm]} children={response.data} escapeHtml={false} /></div>
-                })
+                if (response.headers.get('content-type').includes('text/markdown')) {
+                    var pagename = this.props.match.params.name.replace(/-/gi, ' ')
+                    document.title = `${pagename.charAt(0).toUpperCase()}${pagename.slice(1)} | Tuhin`;
+                    this.setState({
+                        blog: <div className="blog_single"><ReactMarkdown plugins={[gfm]} children={response.data} escapeHtml={false} /></div>
+                    })
+                } else {
+                    document.title = `Not Found | Tuhin`;
+                    this.setState({
+                        blog: <div className="not-found"><Link className="text" to="../../blog">404</Link> </div>
+                    })
+                }
             })
             .catch(err => {
                 document.title = `Not Found | Tuhin`;
