@@ -22,7 +22,7 @@ export default class SingleBlog extends React.Component {
         document.title = `Blog | Tuhin`;
         axios.get(`../../blogs/${this.props.match.params.name}.md`)
             .then(response => {
-                if (response.headers.get('content-type').includes('text/markdown')) {
+                if (response.headers['content-type'].includes('text/markdown')) {
                     var pagename = this.props.match.params.name.replace(/-/gi, ' ')
                     document.title = `${pagename.charAt(0).toUpperCase()}${pagename.slice(1)} | Tuhin`;
                     this.setState({
