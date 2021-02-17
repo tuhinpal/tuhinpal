@@ -20,7 +20,7 @@ export default class SingleBlog extends React.Component {
 
     componentDidMount() {
         document.title = `Blog | Tuhin`;
-        axios.get(`../../blog/${this.props.match.params.name}.md`)
+        axios.get(`../../blogs/${this.props.match.params.name}.md`)
             .then(response => {
                 if (response.headers.get('content-type').includes('text/markdown')) {
                     var pagename = this.props.match.params.name.replace(/-/gi, ' ')
