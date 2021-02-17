@@ -39,13 +39,14 @@
         }
     }
     img {
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
         margin-left: auto;
         margin-right: auto;
         display: block;
         border-radius: 12px;
         width: 100%;
+        max-width: 350px;
     }
     pre {
         margin: 1rem;
