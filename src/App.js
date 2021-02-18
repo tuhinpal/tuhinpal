@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Index from './screens/Index';
 import Works from './screens/Works';
 import SingleBlog from './screens/SingleBlog';
@@ -58,7 +58,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <Router>
         <div>
           <div className="header">
             <Link className="title" to="../../"><span className="gerua">Tu</span>h<span className="sobuj">in</span>.</Link>
@@ -94,7 +94,7 @@ export default class App extends React.Component {
           <Route path="/blog/:name" component={SingleBlog} exact></Route>
           <Route component={NotFound}></Route>
         </Switch>
-      </BrowserRouter>
+      </Router>
     );
   }
 }
