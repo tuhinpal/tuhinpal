@@ -4,6 +4,8 @@
 - Javascript
 - NodeJS
 - MongoDB | Cloud Firestore
+- GraphQL
+- Gatsby
 - React
 - Next
 - Telegraf
@@ -18,6 +20,7 @@
 
 ### ⚡ Project Stack
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
+- [CloudflareDB](https://github.com/cachecleanerjeet/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
 - [Musicder](https://github.com/cachecleanerjeet/Musicder "Musicder")
 - [Zee5 Bot](https://telegram.dog/zee5streamer_bot "Zee5 Bot")
