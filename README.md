@@ -4,6 +4,7 @@
 - Javascript
 - NodeJS
 - MongoDB | Cloud Firestore
+- MySql
 - GraphQL
 - Gatsby
 - React
