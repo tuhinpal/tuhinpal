@@ -20,17 +20,12 @@
 - REST<br>
 
 ### ⚡ Project Stack
+- [PrintIt](https://printit.work/ "PrintIt")
+- [Video*ire](https://coming.soon "Video*ire")
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
 - [CloudflareDB](https://github.com/cachecleanerjeet/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
 - [Musicder](https://github.com/cachecleanerjeet/Musicder "Musicder")
-- [Zee5 Bot](https://telegram.dog/zee5streamer_bot "Zee5 Bot")
-- [Voot Bot](https://telegram.dog/vootstreamer_bot "Voot Bot")
-- [Sunnxt Bot](https://telegram.dog/sunnxtstreamer_bot "Sunnxt Bot")
-- [Hoichoi API](https://github.com/cachecleanerjeet/hoichoi-api "Hoichoi API")
-- [Upier](https://github.com/cachecleanerjeet/Upier "Upier")
-- [aha Bot](https://telegram.dog/ahadownloader_bot "aha Bot")
-- [Mx Player Bot](https://telegram.dog/mxstreamer_bot "Mx Player Bot")
 - [Jiosaavn API](https://github.com/cachecleanerjeet/JiosaavnAPI "Jiosaavn API")
 - [Ekart API](https://github.com/cachecleanerjeet/Ekart-API "Ekart API")
 
