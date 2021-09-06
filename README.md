@@ -21,7 +21,7 @@
 
 ### ⚡ Project Stack
 - [PrintIt](https://printit.work/ "PrintIt")
-- [Video*ire](https://coming.soon "Video*ire")
+- [VideoHire](https://app.videohire.link "VideoHire")
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
 - [CloudflareDB](https://github.com/cachecleanerjeet/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
