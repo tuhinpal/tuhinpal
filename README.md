@@ -20,13 +20,14 @@
 - REST<br>
 
 ### ⚡ Project Stack
+- [serverless:talent](https://serverlesstalent.com/ "serverless:talent")
 - [PrintIt](https://printit.work/ "PrintIt")
 - [VideoHire](https://app.videohire.link "VideoHire")
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
 - [CloudflareDB](https://github.com/cachecleanerjeet/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/cachecleanerjeet/readme-stats-github "Readme Stats Github")
 - [express-mongodb-workflow](https://github.com/cachecleanerjeet/express-mongodb-workflow "express-mongodb-workflow")
-- 
+
 [&& More](https://github.com/cachecleanerjeet "&& More")<br>
 
 ### ⚡ Github Stats
