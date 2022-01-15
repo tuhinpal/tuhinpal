@@ -20,6 +20,8 @@
 - REST<br>
 
 ### ⚡ Project Stack
+
+- [Visadb v2](https://visadb.io/ "Visadb")
 - [serverless:talent](https://serverlesstalent.com/ "serverless:talent")
 - [PrintIt](https://printit.work/ "PrintIt")
 - [VideoHire](https://app.videohire.link "VideoHire")
