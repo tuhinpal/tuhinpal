@@ -1,6 +1,6 @@
 <!-- [![hola](https://raw.githubusercontent.com/tuhinpal/tuhinpal/master/readme-image/header.png "hola")](http://thetuhin.com "hola") -->
 
-# **👋 Hi there, I'm Tuhin**
+# **👋 Hello, I'm Tuhin**
 
 ### ⚡ Tech Stack
 
@@ -23,8 +23,6 @@
 - Docker
 - Linux
 
-<br>
-
 ### ⚡ Project Stack
 
 - [Visadb v2](https://visadb.io/ "Visadb")
@@ -35,13 +33,12 @@
 - [CloudflareDB](https://github.com/tuhinpal/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/tuhinpal/readme-stats-github "Readme Stats Github")
 
-[&& More](https://github.com/tuhinpal "&& More")<br>
+[&& More](https://github.com/tuhinpal "&& More")
 
 ### ⚡ Github Stat
 
 [![Stats](https://github-stats-alpha.vercel.app/api/?username=tuhinpal&cc=fff&tc=DF7431&ic=DF7431 "Stats")](https://github.com/tuhinpal "Stats")<br>
-    Fun fact, I made [this](https://github.com/tuhinpal/readme-stats-github "Readme Stats Github") 🤓
-
+Fun fact, I made [this](https://github.com/tuhinpal/readme-stats-github "Readme Stats Github") 🤓
 
 ### ⚡ Connect
 
