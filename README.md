@@ -28,12 +28,13 @@
 - [Visadb v2](https://visadb.io/ "Visadb")
 - [serverless:talent](https://serverlesstalent.com/ "serverless:talent")
 - [PrintIt](https://printit.work/ "PrintIt")
+- [See my designs in codepen](https://codepen.io/tuhinpal/pens/public "Codepen")
 - [tplayer.js](https://github.com/tuhinpal/tplayer.js "PrintIt")
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
 - [CloudflareDB](https://github.com/tuhinpal/CloudflareDB "CloudflareDB")
 - [Readme Stats Github](https://github.com/tuhinpal/readme-stats-github "Readme Stats Github")
 
-[&& More](https://github.com/tuhinpal "&& More")
+[and More](https://github.com/tuhinpal "and More")
 
 ### ⚡ Github Stat
 
@@ -42,6 +43,7 @@ Fun fact, I made [this](https://github.com/tuhinpal/readme-stats-github "Readme 
 
 ### ⚡ Connect
 
+- [Codepen](https://codepen.io/tuhinpal "Codepen")
 - [Telegram](https://telegram.dog/tprojects "Telegram")
 - [Youtube](https://www.youtube.com/channel/UCa4FMtLpYcOBtjKOZgzTFNA "Youtube")
 - [Twitter](https://twitter.com/jeeetpaul "Twitter")
