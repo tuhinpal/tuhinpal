@@ -51,5 +51,7 @@ Fun fact, I made [this](https://github.com/tuhinpal/readme-stats-github "Readme 
 ### ⚡ Contact
 
 - [Mail](mailto:me@thetuhin.com "Mail")
+- [LinkedIn](https://www.linkedin.com/in/tuhinkantipal/ "LinkedIn")
+
   <!-- - [Telegram](https://telegram.dog/cachecleanerjeet "Telegram") -->
   <!-- [![Footer](https://raw.githubusercontent.com/tuhinpal/tuhinpal/master/readme-image/footer.png "Footer")](http://thetuhin.com "Footer") -->
