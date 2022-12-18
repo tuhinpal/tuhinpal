@@ -28,6 +28,7 @@
 - [Visadb v2](https://visadb.io/ "Visadb")
 - [serverless:talent](https://serverlesstalent.com/ "serverless:talent")
 - [PrintIt](https://printit.work/ "PrintIt")
+- [Browser HLS Downloader](https://hlsdownloader.thetuhin.com "HLS Downloader")
 - [See my designs in codepen](https://codepen.io/tuhinpal/pens/public "Codepen")
 - [tplayer.js](https://github.com/tuhinpal/tplayer.js "PrintIt")
 - [Whatsbot](https://github.com/TheWhatsBot/WhatsBot "Whatsbot")
