@@ -8,7 +8,8 @@
 - NodeJS
 - React
 - Next
-- MongoDB (Aggregation 💗) | Cloud Firestore
+- MongoDB
+- Firebase (Cloud Firestore, RTDB etc.)
 - Prisma
 - MySql
 - REST
