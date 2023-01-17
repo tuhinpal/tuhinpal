@@ -20,13 +20,13 @@
 - Telegraf
 - Git
 - AWS | GCP
-- Firebase
 - Docker
 - Linux
 
 ### ⚡ Project Stack
 
 - [Visadb v2](https://visadb.io/ "Visadb")
+- [Devi](https://ddevi.com/ "Devi")
 - [serverless:talent](https://serverlesstalent.com/ "serverless:talent")
 - [PrintIt](https://printit.work/ "PrintIt")
 - [Browser HLS Downloader](https://hlsdownloader.thetuhin.com "HLS Downloader")
