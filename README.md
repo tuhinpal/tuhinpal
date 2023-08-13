@@ -8,6 +8,7 @@
 - NodeJS
 - React
 - Next
+- Flutter
 - MongoDB
 - Firebase (Cloud Firestore, RTDB etc.)
 - Prisma
